@@ -29,7 +29,7 @@ def check_and_send_wishes():
     fileData = pd.read_csv("index.csv")
 
     for index, row in fileData.iterrows():
-        if dayName=="Tuesday":
+        if dayName=="Monday":
             name = row["name"]
             email = row["email"]
             subject = "Quotes..!"
